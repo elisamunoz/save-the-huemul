@@ -2,6 +2,7 @@
 
 body, html {
     height: 100%;
+    text-align: justify;
 }
 
 .uppercase {
@@ -12,6 +13,12 @@ body, html {
     text-align: center;
 }
 
+.h3-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0
+    
+}
 
 /***************************** Header**/
 
@@ -39,7 +46,7 @@ body, html {
 /***************************** Home**/
 
 .home {
-    background-image: url("../images/home-image.png");
+    background-image: url("../images/home-image.jpg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -56,6 +63,57 @@ body, html {
     max-width: 500px;
 }
 
+/***************************** About**/
+
+
+
+.container-about {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.text-about {
+    padding: 20px 20px;
+}
+
+.half-text-about {
+    padding: 30px 20px;
+}
+
+.full-text-about {
+    padding: 20px 20px;
+}
+
+.half-image {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 30px 10px 0;
+}
+
+.full-image {
+    width: 100%;
+    height: auto;
+    margin:auto;
+    display: block;
+    padding: 30px 0;
+}
+
+.caption-about {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 200;
+}
+.quote-about {
+    padding: 20px 80px;
+}
+
+
+
+
+
 /***************************** News**/
 
 .news {
@@ -65,14 +123,6 @@ body, html {
     padding: 20px;
 }
 
-.news-title {
-    padding-top: 10px;
-}
-
-.padding-news {
-    padding: 30px 0;
-    
-}
 
 .card-news {
     height: 430px;
@@ -103,6 +153,11 @@ body, html {
     bottom: 15px;
 }
 
+/***************************** Contact-us**/
+.contact-us {
+    background-color: green;
+}
+
 /***************************** Footer**/
 
 .footer {
@@ -112,6 +167,11 @@ body, html {
 
 
 /***************************** Media Queries**/
+@media (max-width: 575.98px) {
+    
+    
+}
+
 
 @media (max-width: 991px){
     .card-news {
@@ -147,7 +207,10 @@ body, html {
 
 @media (min-width: 1200px){
 .news-container {
-    max-width: 960px;
+    max-width: 1000px;
+}
+.container-about {
+    max-width: 60%;
 }
 }
 
