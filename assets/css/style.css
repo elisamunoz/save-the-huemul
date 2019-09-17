@@ -3,7 +3,7 @@
 body,
 html {
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
 
@@ -18,14 +18,14 @@ html {
 .h3-title {
     text-align: center;
     text-transform: uppercase;
-    padding: 40px 0 20px 0;
+    padding: 30px 0 20px 0;
     font-weight: 700;
 }
 
 .container {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .background-image {
@@ -48,8 +48,8 @@ html {
     text-align: left;
     margin-top: 80px;
 }
+
 .background-image-quote h3 {
-    font-weight: 700;
     font-size: 20px;
 }
 
@@ -63,18 +63,21 @@ html {
     text-align: center;
 }
 
+.container-what-we-do p {
+    margin-bottom: 0;
+}
+
 .half-text {
-    padding: 30px 20px;
     text-align: right;
 }
 
 .half-text h5 {
-     font-weight: 700;
+    font-weight: 700;
 }
 
 .full-image-text {
-        padding: 10px 24px 0;
-        text-align: center;
+    padding: 10px 24px 0;
+    text-align: center;
 }
 
 .image-caption {
@@ -88,15 +91,6 @@ html {
 
 /***************************** Header**/
 
-.header__logo {
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    background-color: white;
-    background-image: url("../images/logo.png");
-    background-size: cover;
-    background-position-y: -10px;
-}
 .bg-light {
     background-color: #273e57!important;
 }
@@ -105,31 +99,11 @@ html {
     margin-left: auto;
 }
 
-.navbar-light .navbar-toggler {
-    border-color: transparent;
-    background: #f8f9fa;
-    padding: 2px 6px;
-}
-
-.navbar-light .navbar-toggler-icon{
-}
-
 .button:focus {
     outline: none;
 }
 
-.navbar-light .navbar-brand,
-.navbar-light .navbar-brand:hover {
-    padding-left: 30px;
-    color: #fff;
-}
-
-
-.navbar-light .navbar-nav .active>.nav-link { 
-    color: #fff;
-}
-
-.navbar-light .navbar-nav .active>.nav-link:hover { 
+.navbar-dark .navbar-nav .active>.nav-link:hover {
     color: #d99901;
     transition: ease-in-out 1s;
 }
@@ -238,9 +212,7 @@ html {
     background-image: url("../images/news/background-image-news.jpg");
 }
 
-.background-quote-news {
-    
-}
+.background-quote-news {}
 
 /***************************** Donate**/
 
@@ -255,12 +227,12 @@ html {
 
 /***************************** Contact-us**/
 
-.row-contact-us .half-text h6 { 
+.row-contact-us .half-text h6 {
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.row-contact-us .half-text p { 
+.row-contact-us .half-text p {
     font-size: .8rem;
 }
 
@@ -288,6 +260,19 @@ html {
 /***************************** Media Queries**/
 
 @media (max-width: 991px) {
+
+    .half-text {
+        text-align: justify;
+    }
+    
+    .half-text h5 {
+        text-align: left;
+    }
+
+    .quote-about {
+        text-align: right;
+    }
+
     .card-news {
         height: 580px;
     }
@@ -299,11 +284,14 @@ html {
     .card-body {
         height: 210px;
     }
-    
+
     .full-image {
         max-width: 90%;
+    }
+    
+.full-text {
+    text-align: justify;
 }
-
 }
 
 @media (max-width: 595px) {
@@ -314,7 +302,7 @@ html {
 
 @media (min-width: 769px) {
     .home-quote {
-        padding: 24px 50px;
+        padding: 24px 45px;
         right: 150px;
         bottom: 200px;
     }
@@ -322,18 +310,21 @@ html {
     .container-contact-us {
         max-width: 60%;
     }
-    
+
     .navbar {
         height: 50px;
-}
+    }
 
 }
 
 @media (min-width: 992px) {
     .background-image-quote {
         position: absolute;
-}
+    }
     
+.half-text {
+    padding-top: 34px;
+
 }
 
 @media (min-width: 1200px) {
@@ -344,5 +335,5 @@ html {
     .container-about {
         max-width: 80%;
     }
-    
+
 }
