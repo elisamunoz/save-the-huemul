@@ -151,7 +151,7 @@ hr {
 
 .navbar-dark .navbar-nav .active>.nav-link:hover {
     color: #e6c13f;
-    transition: ease-in-out 1s;
+    transition: ease-in-out .15s;
 }
 
 .navbar-dark .navbar-brand {
@@ -254,6 +254,7 @@ hr {
 
 .card-title:hover {
     color: #e6c13f;
+    transition: .15s ease-in-out;
 }
 
 .card-body {
@@ -325,6 +326,10 @@ hr {
     background-image: url("../images/contact.jpg");
 }
 
+.contact-us-title {
+    color: #273e57;
+}
+
 .transparent-overlay {
     position: absolute;
     height: 100%;
@@ -332,11 +337,18 @@ hr {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+}
+.row-contact-us {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.contact-us-title {
-    color: #273e57;
+.half-text-contact {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .row-contact-us .half-text h6 {
@@ -346,6 +358,7 @@ hr {
 
 .row-contact-us .half-text p {
     font-size: .8rem;
+    font-weight: 700;
 }
 
 .center-form {
@@ -355,9 +368,9 @@ hr {
 .form-control {
     margin: 20px 0;
 }
-.half-text-contact {
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.half-map-padding {
+    padding: 0 15px;
 }
 
 .half-map {
@@ -375,12 +388,17 @@ hr {
 .footer-text,
 .fa-footer {
     color: #e9ecef;
+    margin: 3px;
 }
 
 .footer-text:hover,
 .fa-footer:hover {
     color: #e6c13f;
-    transition: ease-in-out 1s;
+    transition: ease-in-out .15s;
+}
+
+.list-inline {
+    margin: 3px;
 }
 
 
