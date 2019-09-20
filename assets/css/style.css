@@ -9,7 +9,7 @@ html {
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -24,19 +24,37 @@ a:link {
 .h3-title {
     text-align: center;
     text-transform: uppercase;
-    padding: 30px 0 20px 0;
+    padding-top: 30px;
     font-weight: 700;
-    color: #d99901;
+    color: #e6c13f;
 }
 
-.about-huemul, .contact-us {
+hr {
+    width: 300px;
+    border: 1px solid;
+}
+
+.hr-light-blue {
+    width: 200px;
+    color: #34495e73;
+}
+
+.hr-blue {
+    color: #264c7be0;
+}
+
+.hr-donation { 
+    color: #34495e73
+}
+
+.contact-us {
     background-color: #f5f5f5;
 }
 
-.container {
+.container-all {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .background-image {
@@ -50,19 +68,8 @@ a:link {
     background-attachment: fixed;
 }
 
-.transparent-overlay {
-    height: 100%;
-    width: 100%;
-    /*background-color: rgba(255,255,255,0.2);*/
-    position: absolute;
-    top:0;
-    left: 0;
-}
-
 .background-image-quote {
     background: #f1f1f1c9;
-    color: #252525;
-    width: 80%;
     margin: auto;
     padding: 24px 50px;
     text-align: left;
@@ -70,15 +77,25 @@ a:link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
+    border-radius: 4px 4px;
 }
 
 .background-image-quote h3 {
-    font-size: 30px;
+    font-size: 25px;
+    color: #333;
 }
 
-.background-quote-about p {
-    font-size: 25px;
-    margin-top: 55px;
+.background-quote-about,
+.background-quote-news {
+    max-width: 1000px;
+}
+
+.background-quote-about p,
+.background-quote-news p,
+.background-image-quote p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #333;
 }
 
 .full-text {
@@ -96,6 +113,7 @@ a:link {
 
 .half-text h5 {
     font-weight: 700;
+    padding-top: 10px;
 }
 
 .full-image-text {
@@ -109,6 +127,11 @@ a:link {
     padding: .2em .6em;
     font-style: italic;
     font-weight: 300;
+}
+
+.img-thumbnail {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 
@@ -127,7 +150,7 @@ a:link {
 }
 
 .navbar-dark .navbar-nav .active>.nav-link:hover {
-    color: #d99901;
+    color: #e6c13f;
     transition: ease-in-out 1s;
 }
 
@@ -135,7 +158,10 @@ a:link {
     color: #e9ecef;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
     color: #e9ecef;
 }
 
@@ -147,12 +173,21 @@ a:link {
 }
 
 .home-quote {
-    max-width: 500px;
+    max-width: 511px;
     margin-top: 50px;
 }
 
 
 /***************************** What we do**/
+
+.what-we-do {
+    background-color: #273e57;
+    color: #fafafacf;
+}
+
+.what-we-do-title {
+    color: #fff;
+}
 
 /***************************** About**/
 
@@ -181,8 +216,13 @@ a:link {
 }
 
 .quote-about {
-    padding: 10px 25px 40px 45px;
+    padding: 10px 25px 10px 45px;
     text-align: left;
+    letter-spacing: 3px;
+}
+
+.quote-about p {
+    margin-bottom: 0px;
 }
 
 .background-image-about {
@@ -203,13 +243,17 @@ a:link {
 }
 
 .card {
-        border: none;
+    border: none;
 }
 
 .card-news {
     height: 430px;
     position: relative;
     margin: 15px auto;
+}
+
+.card-title:hover {
+    color: #e6c13f;
 }
 
 .card-body {
@@ -220,6 +264,7 @@ a:link {
 
 .card-title {
     font-weight: 700;
+    color: #34495e;
 }
 
 .news-image {
@@ -241,6 +286,18 @@ a:link {
     background-image: url("../images/news/3.jpg");
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #273e57;
+    border-color: #273e57;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e6c13f;
+    border-color: #e6c13f;
+}
+
 .btn-news {
     position: absolute;
     bottom: 15px;
@@ -250,7 +307,6 @@ a:link {
     background-image: url("../images/news/background-image-news.jpg");
 }
 
-.background-quote-news {}
 
 /***************************** Donate**/
 
@@ -264,6 +320,24 @@ a:link {
 }
 
 /***************************** Contact-us**/
+
+.background-image-contact {
+    background-image: url("../images/contact.jpg");
+}
+
+.transparent-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.contact-us-title {
+    color: #273e57;
+}
 
 .row-contact-us .half-text h6 {
     text-transform: uppercase;
@@ -281,17 +355,32 @@ a:link {
 .form-control {
     margin: 20px 0;
 }
+.half-text-contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .half-map {
-    padding-bottom: 30px;
+    padding: 5px;
 }
 
 
 /***************************** Footer**/
 
 .footer {
-    background-color: #4a4a4f;
+    background-color: #273e57;
     padding: 10px;
+}
+
+.footer-text,
+.fa-footer {
+    color: #e9ecef;
+}
+
+.footer-text:hover,
+.fa-footer:hover {
+    color: #e6c13f;
+    transition: ease-in-out 1s;
 }
 
 
@@ -299,12 +388,16 @@ a:link {
 
 @media (max-width: 991px) {
 
+    .background-image-quote {
+        width: 80%;
+    }
+
     .half-text {
         text-align: justify;
     }
-    
+
     .half-text h5 {
-        text-align: left;
+        text-align: center;
     }
 
     .quote-about {
@@ -326,10 +419,10 @@ a:link {
     .full-image {
         max-width: 90%;
     }
-    
-.full-text {
-    text-align: justify;
-}
+
+    .full-text {
+        text-align: justify;
+    }
 }
 
 @media (max-width: 595px) {
@@ -356,18 +449,26 @@ a:link {
 }
 
 @media (min-width: 992px) {
-    .background-image-quote {
+    .home-quote {
         position: absolute;
     }
 
-.row-about {
-    padding-top: 25px;
-    padding-bottom: 20px;
-}
+    .row-about {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
 
-.h3-title { 
-    padding: 55px 0 20px 0;
-}
+    .h3-title {
+        padding-top: 55px;
+    }
+
+    .donation-btn {
+        text-align: right;
+    }
+
+    .hr-donation {
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 1200px) {
