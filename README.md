@@ -34,7 +34,7 @@ I validated the HTML code using https://validator.w3.org
 
 
 ## Deployment
-This website is hosted and deployed using GitHub pages. The link to my website is: http://elisamunoz.github.io/save-the-huemul/
+This website is hosted and deployed using GitHub pages. The link to my website is: https://elisamunoz.github.io/the-huemul-organization/
 
 ## Credits
 The inspiration I got was from this websites; 
