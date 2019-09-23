@@ -23,28 +23,20 @@ This site is a Single-page application, with collapsable navbar on the mobile ve
 
 
 ### Features left to implement
-In the future, I would like to implement the Element Fade In on Scroll function, to create movement and make the website less static.
+In the future, I would like to implement the Element Fade In on Scroll function, to create movement and make the website less static. I would also like to implement a Spanish Version, so people in Chile can understand the meaning of this website.
 
 ## Testing
 Since I started the project and after every modification I have tested the website for mobile devices and desktop using Chrome Dev Tool. 
 Once I finished the sections, I tested for every link I have clicking on them.
 To test user experience I sent the link of the project to my family and friends, they seemed to enjoy the website, my non-Chilean friends know what a huemul is now.
-I validated the HTML code using https://validator.w3.org
-
-
+I validated the HTML code using [The W3C Markup Validation Service](https://validator.w3.org/)
 
 ## Deployment
-This website is hosted and deployed using GitHub pages. The link to my website is: http://elisamunoz.github.io/save-the-huemul/
+This website is hosted and deployed using GitHub pages. The link to my website is: [The Huemul Organization](http://elisamunoz.github.io/the-huemul-organization/)
 
 ## Credits
-The inspiration I got was from this websites; 
-https://www.gorillas.org/ and 
-https://www.worldwildlife.org/
-I also get so see loads of websites at work, where I got some ideas I wanted to implement on my own website.
-All the information about the huemul and the penguin favicon were taken
-from: https://blogpatagonia.australis.com/8-facts-chile-national-animal/ and
-https://www.cascada.travel/en/News/Huemul-Chiles-National-Animal
+The main inspiration I got was from [The Gorilla Organization](https://www.gorillas.org/) and [The WWF Organization](https://www.worldwildlife.org/) websites. I also get so see many different websites (good and bad) at work, where I got some ideas about what I wanted and what I did not want to implement on my own website.
+All the information about the huemul and the penguin favicon were taken from the [Australis](https://blogpatagonia.australis.com/8-facts-chile-national-animal/) and from [Cascada Travel](https://www.cascada.travel/en/News/Huemul-Chiles-National-Animal) websites.
 
 The pictures were all taken from: 
-https://www.fotonaturaleza.cl/
-https://pixabay.com and Google images.
+[FotoNaturaleza.cl](https://www.fotonaturaleza.cl/), [Pixabay](https://pixabay.com) and [Google images](https://images.google.com) websites.

@@ -43,7 +43,7 @@ hr {
     color: #264c7be0;
 }
 
-.hr-donation { 
+.hr-donation {
     color: #34495e73
 }
 
@@ -339,6 +339,7 @@ hr {
     right: 0;
     background: rgba(255, 255, 255, 0.3);
 }
+
 .row-contact-us {
     margin-left: 0px;
     margin-right: 0px;
@@ -409,6 +410,10 @@ hr {
     .background-image-quote {
         width: 80%;
     }
+    
+    .home-quote {
+        width: 84%;
+    }
 
     .half-text {
         text-align: justify;
@@ -447,6 +452,12 @@ hr {
     .card-body {
         height: 300px;
     }
+}
+
+@media (max-width: 331px) {
+.navbar-dark .navbar-brand {
+    font-size: medium;
+}
 }
 
 @media (min-width: 769px) {
