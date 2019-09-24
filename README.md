@@ -6,8 +6,22 @@ This is The Huemul Organization website, which first objective is to present the
 
 ## UX
 
-My goal was to create a responsive Single-Page Application, easy to use and understand. The color scheme was taken from the predominant colors in the "Home" section picture. I have chosen some touching quotes from famous people about education and wildlife conservation as a message that we still have a chance to make the world a better place to live.
-For the users, I wanted to provide them with a website where they can learn about our organization, to know the huemul, to get the latest news about the huemul, to donate to help continue with our work and a section to contact our organization.
+My goal was to create a responsive Single-Page Application, easy to read and understand. The color scheme was taken from the predominant colors in the "Home" section picture. I have pictures of the huemul habitat between sections to create a pause between content for the user, I have also chosen some touching quotes from famous relevant people from the conservationist field about education and wildlife conservation as a message that we still have a chance to make the world a better place to live.
+The sections I created for the website are:
+
+### Home:
+I wanted to have a picture of the huemul and his environment and a message, to catch the user with in nice landing page.
+### What we do:
+In this section I wanted to provide the user with information about what our organization does, what our main and ultimate objectives are.
+### About the huemul:
+The goal of this section is to give context to our organization, I wanted to have a brief summary with the most important information about the huemul. I considered as relevant information: what a huemul is, where they live, conservation state, cause of its endangered state, and to show that its conservation has become a priority in both sides of the Andes.
+### News:
+I considered that it was necessary to have a "news" section, where the user could have the latest news about the huemul linked to external websites.
+### Donation:
+It was necessary to implement a donation section, as one of our important incomes is from the people that want to help our organization.
+### Contact:
+This section is necessary for the users to contact us, in case they want to help in any other way such as volunteering, internships or in case they need us to make an education session for students or any specific public.
+
 
 ## Technologies
 
