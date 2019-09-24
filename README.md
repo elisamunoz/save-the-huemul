@@ -6,7 +6,7 @@ This is The Huemul Organization website, which first objective is to present the
 
 ## UX
 
-My goal was to create a responsive Single-Page Application, easy to read and understand. The color scheme was taken from the predominant colors in the "Home" section picture. I have pictures of the huemul habitat between sections to create a pause between content for the user, I have also chosen some touching quotes from famous relevant people from the conservationist field about education and wildlife conservation as a message that we still have a chance to make the world a better place to live.
+My goal was to create a responsive Single-Page Application, easy to read and understand. The color scheme was taken from the predominant colors in the "Home" section picture. I have pictures of the huemul habitat between sections to create a pause between content, I have also chosen some touching quotes from famous relevant people from the conservationist field about education and wildlife conservation as a message that we still have a chance to make the world a better place to live.
 The sections I created for the website are:
 
 ### Home:
