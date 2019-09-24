@@ -10,7 +10,7 @@ My goal was to create a responsive Single-Page Application, easy to read and und
 The sections I created for the website are:
 
 ### Home:
-I wanted to have a picture of the huemul and his environment and a message, to catch the user with in nice landing page.
+I wanted to have a picture of the huemul and his environment and a message, to catch the user with a pleasant landing page.
 ### What we do:
 In this section I wanted to provide the user with information about what our organization does, what our main and ultimate objectives are.
 ### About the huemul:
