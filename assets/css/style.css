@@ -2,6 +2,7 @@
 
 body,
 html {
+    scroll-behavior: smooth;
     height: 100%;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -58,7 +59,7 @@ hr {
 }
 
 .background-image {
-    min-height: 107vh;
+    min-height: calc(100vh - 50px);
     width: 100%;
     display: block;
     background-size: cover;
@@ -149,6 +150,13 @@ hr {
     outline: none;
 }
 
+.navbar {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .navbar-dark .navbar-nav .active>.nav-link:hover {
     color: #e6c13f;
     transition: ease-in-out .15s;
@@ -170,6 +178,7 @@ hr {
 
 .home {
     background-image: url("../images/home-image.jpg");
+    margin-top: 50px;
 }
 
 .home-quote {
